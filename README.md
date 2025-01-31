@@ -1,5 +1,5 @@
 # Tema 1: Expresiones Regulares + Funciones de Extensió
-## 1. ¿Qué es una expresión regular?¶
+## 1. ¿Qué es una expresión regular?
 - Es un tipo de “fórmula” que recoge un conjunto de Strings y permite filtrarlo según unas normas estipuladas, es decir, como un molde de un bizcocho pero con cadena de texto (String).
   
 ## 2. ¿Para qué se usan?
