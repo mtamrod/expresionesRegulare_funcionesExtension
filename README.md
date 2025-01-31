@@ -24,6 +24,7 @@ pero más flexible).
 Nota: La expresion regular es 'Regex' o el patrón que se le indique.
 ```
 
+### Algunos ejemplos de símbolos que controlan el Regex (Patrón):
 | Símbolo | Significado |
 |---------|------------|
 | `.` | Cualquier carácter |
