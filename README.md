@@ -11,10 +11,10 @@ Se utiliza la clase Regex (Regular Expression) para funciones como buscar una pa
 se pueden usar para validar correos, extraer datos de cadenas, reemplazar texto y más(Ósea que es como un replace() o un substring() pero más flexible).
 pero más flexible).
 
-📌 ^[A-Za-z0-9+_.-]+ → Usuario (letras, números, +_.-)
-📌 @ → Debe haber una arroba
-📌 [A-Za-z0-9.-]+ → Dominio (letras, números, .-)
-📌 \\.[A-Za-z]{2,6}$ → Extensión (.com, .net, .org, etc.)
+- ^[A-Za-z0-9+_.-]+ → Usuario (letras, números, +_.-)
+- @ → Debe haber una arroba
+- [A-Za-z0-9.-]+ → Dominio (letras, números, .-)
+- \\.[A-Za-z]{2,6}$ → Extensión (.com, .net, .org, etc.)
 
 ## 4. Localiza en la práctica del Ahorcado dónde se utiliza una expresión regular. Analiza y explica el código en detalle.
 
