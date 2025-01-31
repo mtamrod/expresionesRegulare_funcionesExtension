@@ -11,12 +11,31 @@ Se utiliza la clase Regex (Regular Expression) para funciones como buscar una pa
 se pueden usar para validar correos, extraer datos de cadenas, reemplazar texto y más(Ósea que es como un replace() o un substring() pero más flexible).
 pero más flexible).
 
-- ^[A-Za-z0-9+_.-]+ → Usuario (letras, números, +_.-)
-- @ → Debe haber una arroba
-- [A-Za-z0-9.-]+ → Dominio (letras, números, .-)
-- \\.[A-Za-z]{2,6}$ → Extensión (.com, .net, .org, etc.)
-
 ## 4. Localiza en la práctica del Ahorcado dónde se utiliza una expresión regular. Analiza y explica el código en detalle.
+
+### Algunos ejemplos de metodos con expresiones regulares son:
+```kotlin
+- find(): Para encontrar la primera ocurrencia de un subtexto que cumple una expresión regular dentro de un texto
+- findAll(): Busca todas las coincidencias de una expresión regular en un texto y devuelve una secuencia.
+- split(): Divide una cadena en una lista usando una expresión regular como separador.
+- replace(): Reemplaza las coincidencias de la expresión regular en la cadena por otro texto.
+- containsMatchIn(): Verifica si la cadena contiene al menos una coincidencia de la expresión regular.
+
+Nota: La expresion regular es 'Regex' o el patrón que se le indique.
+```
+
+| Símbolo | Significado |
+|---------|------------|
+| `.` | Cualquier carácter |
+| `^` | Inicio de cadena |
+| `$` | Fin de cadena |
+| `*` | 0 o más repeticiones |
+| `+` | 1 o más repeticiones |
+| `?` | 0 o 1 repetición |
+| `{n}` | Exactamente `n` repeticiones |
+| `{n,}` | Al menos `n` repeticiones |
+| `{n,m}` | Entre `n` y `m` repeticiones |
+
 
 - [Clase Palabra de ejercicio Ahorcado](src/main/kotlin/Palabra.kt)
 
